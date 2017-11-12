@@ -36,11 +36,73 @@
 
 			<section class="catalog-filter">
 				<h2 class="visually-hidden">Выбор параметров</h2>
-				<form class="catalog-filter-form">
-					<p><b>Стоимость:</b></p>
-
-				<!-- Здесь будет форма -->
-
+				<form class="catalog-filter-form" action="https://echo.htmlacademy.ru" method="get">
+					<div class="catalog-filter-cost">
+						<h3>Стоимость:</h3>
+						<div class="catalog-filter-cost-choice">
+						</div>
+						<p>от<span>0</span></p>
+						<p>до<span>15 000</span></p>
+					</div>
+					<fieldset>
+						<legend>Сетка:</legend>
+						<ul>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="radio" name="grid" value="adaptive" checked>
+									Адаптивная
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="radio" name="grid" value="fixed">
+									Фиксированная
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="radio">
+									Резиновая
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+					<fieldset>
+						<legend>Особенности:</legend>
+						<ul>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="checkbox" name="slider" checked>
+									Слайдер
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="checkbox" name="block-of-advantages">
+									Блок преимуществ
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="checkbox" name="news" checked>
+									Новости
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="checkbox" name="gallery">
+									Галерея
+								</label>
+							</li>
+							<li class="catalog-filter-option">
+								<label>
+									<input class="visually-hidden catalog-filter-input" type="checkbox" name="cart">
+									Корзина
+								</label>
+							</li>
+						</ul>
+					</fieldset>
+					<button type="submit" class="catalog-filter-button">Показать</button>
 				</form>
 			</section>
 
@@ -50,19 +112,19 @@
 				<div class="catalog-templates-sort">
 					<p><b>Сортировать:</b></p>
 					<ul>
-						<li>
+						<li class="catalog-templates-sort-item">
 							<a href="#">По цене</a>
 						</li>
-						<li>
+						<li class="catalog-templates-sort-item">
 							<a href="#">По типу</a>
 						</li>
-						<li>
+						<li class="catalog-templates-sort-item">
 							<a href="#">По названию</a>
 						</li>
-						<li>
+						<li class="catalog-templates-sort-item">
 							<a href="#">&#9660;</a>
 						</li>
-						<li>
+						<li class="catalog-templates-sort-item">
 							<a href="#">&#9650;</a>
 						</li>
 					</ul>
@@ -124,16 +186,16 @@
 				</article>
 				
 				<ul class="catalog-pagination">
-					<li>
+					<li class="catalog-pagination-item">
 						<a href="#">1</a>
 					</li>
-					<li>
+					<li class="catalog-pagination-item">
 						<a href="#">2</a>
 					</li>
-					<li>
+					<li class="catalog-pagination-item">
 						<a href="#">3</a>
 					</li>
-					<li>
+					<li class="catalog-pagination-item">
 						<a href="#">Cледующая</a>
 					</li>
 				</ul>
@@ -171,11 +233,25 @@
 
 		<section class="feedback">
 			<h2>Напишите нам</h2>
-			<form class="feedback-form">
-
-			<!-- Здесь будет форма -->
-
+			<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+				<p class="feedback-item">
+					<label>Ваше имя:
+						<input type="text" name="username" value="" placeholder="Представьтесь, пожалуйста">
+					</label>
+				</p>
+				<p class="feedback-item">
+					<label>Ваш e-mail:
+						<input type="text" name="email" value="" placeholder="Для отправки ответа">
+					</label>
+				</p>
+				<p class="feedback-item">
+					<label>Текст письма:
+						<textarea name="message">В свободной форме</textarea>
+					</label>
+				</p>
+				<button class="button" type="submit">Отправить</button>
 			</form>
+			<button class="modal-close" type="button">Закрыть</button>
 		</section>
 
 	</body>

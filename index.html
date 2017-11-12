@@ -111,23 +111,23 @@
 
 			<section class="partners">
 				<h2 class="visually-hidden">Наши партнёры</h2>
-				<ul class="partners-logo">
-					<li class="partners-logo-item">
+				<ul class="partners-list">
+					<li class="partners-item">
 						<a href="https://htmlacademy.ru/intensive/htmlcss">
 							<img src="img/logo-htmlacademy.png" width="199" height="68" alt="Логотип htmlacademy">
 						</a>
 					</li>
-					<li class="partners-logo-item">
+					<li class="partners-item">
 						<a href="#">
 							<img src="img/logo-barbershop.png" width="209" height="90" alt="Логотип Барбершоп">
 						</a>
 					</li>
-					<li class="partners-logo-item">
+					<li class="partners-item">
 						<a href="#">
 							<img src="img/logo-pink.png" width="185" height="52" alt="Логотип Pink">
 						</a>
 					</li>
-					<li class="partners-logo-item">
+					<li class="partners-item">
 						<a href="#">
 							<img src="img/logo-mishka.png" width="173" height="84" alt="Логотип Mishka">
 						</a>
@@ -167,11 +167,25 @@
 
 		<section class="feedback">
 			<h2>Напишите нам</h2>
-			<form class="feedback-form">
-
-				<!-- Здесь будет форма -->
-
+			<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
+				<p class="feedback-item">
+					<label>Ваше имя:
+						<input type="text" name="username" value="" placeholder="Представьтесь, пожалуйста">
+					</label>
+				</p>
+				<p class="feedback-item">
+					<label>Ваш e-mail:
+						<input type="text" name="email" value="" placeholder="Для отправки ответа">
+					</label>
+				</p>
+				<p class="feedback-item">
+					<label>Текст письма:
+						<textarea name="message">В свободной форме</textarea>
+					</label>
+				</p>
+				<button class="button" type="submit">Отправить</button>
 			</form>
+			<button class="modal-close" type="button">Закрыть</button>
 		</section>
 
 	</body>
