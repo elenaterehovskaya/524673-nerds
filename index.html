@@ -24,7 +24,7 @@
 						<a href="#">Контакты</a>
 					</li>
 				</ul>
-				<div class="main-header-basket">
+				<div class="main-header-cart">
 					<a href="#">Корзина</a>
 				</div>
 			</nav>
@@ -168,21 +168,15 @@
 		<section class="feedback">
 			<h2>Напишите нам</h2>
 			<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-				<p class="feedback-item">
-					<label>Ваше имя:
-						<input type="text" name="username" value="" placeholder="Представьтесь, пожалуйста">
-					</label>
-				</p>
-				<p class="feedback-item">
-					<label>Ваш e-mail:
-						<input type="text" name="email" value="" placeholder="Для отправки ответа">
-					</label>
-				</p>
-				<p class="feedback-item">
-					<label>Текст письма:
-						<textarea name="message">В свободной форме</textarea>
-					</label>
-				</p>
+				<label class="feedback-item"><span>Ваше имя:</span>
+					<input type="text" name="username" value="" placeholder="Представьтесь, пожалуйста">
+				</label>
+				<label class="feedback-item"><span>Ваш e-mail:</span>
+					<input type="text" name="email" value="" placeholder="Для отправки ответа">
+				</label>
+				<label class="feedback-item"><span>Текст письма:</span>
+					<textarea name="message">В свободной форме</textarea>
+				</label>
 				<button class="button" type="submit">Отправить</button>
 			</form>
 			<button class="modal-close" type="button">Закрыть</button>
