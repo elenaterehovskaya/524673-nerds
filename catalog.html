@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Магазин Нёрдс</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
 	</head>
 	<body>
 		<header class="main-header">
@@ -24,7 +27,7 @@
 						<a href="#">Контакты</a>
 					</li>
 				</ul>
-				<div class="main-header-cart">
+				<div class="site-cart">
 					<a href="#">Корзина</a>
 				</div>
 			</nav>
@@ -45,64 +48,64 @@
 						<p>до<span>15 000</span></p>
 					</div>
 					<fieldset>
-						<legend>Сетка:</legend>
+						<legend><b>Сетка:</b></legend>
 						<ul>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="radio" name="grid" value="adaptive" checked>
-									Адаптивная
+									<span>Адаптивная</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="radio" name="grid" value="fixed">
-									Фиксированная
+									<span>Фиксированная</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
-									<input class="visually-hidden filter-input" type="radio" name="grid" value="responsive">
-									Резиновая
+									<input class="visually-hidden filter-input" type="radio" name="grid" value="fluid">
+									<span>Резиновая</span>
 								</label>
 							</li>
 						</ul>
 					</fieldset>
 					<fieldset>
-						<legend>Особенности:</legend>
+						<legend><b>Особенности:</b></legend>
 						<ul>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="checkbox" name="slider" checked>
-									Слайдер
+									<span>Слайдер</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="checkbox" name="block-of-advantages">
-									Блок преимуществ
+									<span>Блок преимуществ</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="checkbox" name="news" checked>
-									Новости
+									<span>Новости</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="checkbox" name="gallery">
-									Галерея
+									<span>Галерея</span>
 								</label>
 							</li>
 							<li class="filter-option">
 								<label>
 									<input class="visually-hidden filter-input" type="checkbox" name="cart">
-									Корзина
+									<span>Корзина</span>
 								</label>
 							</li>
 						</ul>
 					</fieldset>
-					<button type="submit" class="filter-button">Показать</button>
+					<button type="submit" class="button-filter">Показать</button>
 				</form>
 			</section>
 
@@ -122,10 +125,14 @@
 							<a href="#">По названию</a>
 						</li>
 						<li class="templates-sort-item">
-							<a href="#"><span>По убыванию</span>&#9660;</a>
+							<a href="#">&#9660;
+								<span>По убыванию</span>
+							</a>
 						</li>
 						<li class="templates-sort-item">
-							<a href="#"><span>По возрастанию</span>&#9650;</a>
+							<a href="#">&#9650;
+								<span>По возрастанию</span>
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -134,54 +141,54 @@
 					<h3 class="visually-hidden">Шаблон "Sedona"</h3>
 					<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
 					<div class="templates-image-card">
-						<a href="#">Sedona</a>
+						<a href="#"><b>Sedona</b></a>
 						<p>Информационный сайт для туристов</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				<article class="templates-image">
 					<h3 class="visually-hidden">Шаблон "Pink"</h3>
 					<img src="img/img-pink.jpg" width="360" height="576" alt="Pink">
 					<div class="templates-image-card">
-						<a href="#">Pink</a>
+						<a href="#"><b>Pink</b></a>
 						<p>Продуктовый лендинг приложения для iOS и Android</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				<article class="templates-image">
 					<h3 class="visually-hidden">Шаблон "Barbershop"</h3>
 					<img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
 					<div class="templates-image-card">
-						<a href="#">Barbershop</a>
+						<a href="#"><b>Barbershop</b></a>
 						<p>Сайт салоны красоты. Для мужчин, да.</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				<article class="templates-image">
 					<h3 class="visually-hidden">Шаблон "Mishka"</h3>
 					<img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
 					<div class="templates-image-card">
-						<a href="#">Mishka </a>
+						<a href="#"><b>Mishka</b></a>
 						<p>Интернет-магазин вязаных игрушек</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				<article class="templates-image">
 					<h3 class="visually-hidden">Шаблон "A Plus"</h3>
 					<img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
 					<div class="templates-image-card">
-						<a href="#">A Plus</a>
+						<a href="#"><b>A Plus</b></a>
 						<p>Лендинг курсов повышения квалификации</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				<article class="templates-image">
 					<h3 class="visually-hidden">Шаблон "Кваст"</h3>
 					<img src="img/img-kvast.jpg" width="360" height="576" alt="Кваст">
 					<div class="templates-image-card">
-						<a href="#">Кваст</a>
+						<a href="#"><b>Кваст</b></a>
 						<p>Промо-сайт производителя крафтового кваса</p>
-						<a class="button-card" href="#">9 900 руб.</a>
+						<a class="button" href="#">9 900 руб.</a>
 					</div>
 				</article>
 				
@@ -231,16 +238,19 @@
 			</section>
 		</footer>
 
-		<section class="feedback">
+		<section class="modal">
 			<h2>Напишите нам</h2>
-			<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
-				<label class="feedback-item"><span>Ваше имя:</span>
+			<form class="form feedback" action="https://echo.htmlacademy.ru" method="post">
+				<label class="feedback-item">
+					<span>Ваше имя:</span>
 					<input type="text" name="username" value="" placeholder="Представьтесь, пожалуйста">
 				</label>
-				<label class="feedback-item"><span>Ваш e-mail:</span>
+				<label class="feedback-item">
+					<span>Ваш e-mail:</span>
 					<input type="text" name="email" value="" placeholder="Для отправки ответа">
 				</label>
-				<label class="feedback-item"><span>Текст письма:</span>
+				<label class="feedback-item">
+					<span>Текст письма:</span>
 					<textarea name="message">В свободной форме</textarea>
 				</label>
 				<button class="button" type="submit">Отправить</button>
