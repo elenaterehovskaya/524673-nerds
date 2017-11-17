@@ -38,8 +38,8 @@ a {
 	color: #fb565a;
 }
 
-.site-navigation a:focus,
-.site-cart a:focus {
+.site-navigation a:active,
+.site-cart a:active {
 	color: rgba(0, 0, 0, 0.3);
 }
 
@@ -100,7 +100,7 @@ a {
 	background-color: #e74246;
 }
 
-.button:focus {
+.button:active {
 	color: rgba(255, 255, 255, 0.3);
 	
 	background-color: #d7373b;
@@ -126,7 +126,7 @@ a {
 	background-color: #00bc6c;
 }
 
-.button-service-2:focus {
+.button-service-2:active {
 	color: rgba(255, 255, 255, 0.3);
 	
 	background-color: #00aa62;
@@ -141,7 +141,7 @@ a {
 	background-color: #eab534;
 }
 
-.button-service-3:focus {
+.button-service-3:active {
 	color: rgba(255, 255, 255, 0.3);
 	
 	background-color: #e5a722;
@@ -165,6 +165,7 @@ a {
 }
 
 .results-tab caption {
+	font-weight: 700;
 	color: #000000;
 	text-transform: uppercase;
 }
@@ -204,14 +205,15 @@ a {
 	border: none;
 }
 
-.filter-form b {
+.filter-form legend {
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
 	text-transform: uppercase;
 }
 
-.button-filter {
+.filter-button {
 	font: inherit;
 	font-weight: 500;
 	line-height: 18px;
@@ -228,7 +230,7 @@ a {
 	background-color: #dfdfdf;
 }
 
-.button-filter:focus {
+.button-filter:active {
 	color: rgba(0, 0, 0, 0.3);
 	
 	background-color: #d5d5d5;
@@ -257,7 +259,7 @@ a {
 	color: rgba(0, 0, 0, 0.6);
 }
 
-.templates-sort a:focus {
+.templates-sort a:active {
 	color: #000000;
 }
 
@@ -275,7 +277,8 @@ a {
 	color: #666666;
 }
 
-.templates-image-card b {
+.templates-image-card a:first-child  {
+	font-weight: 700;
 	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
@@ -299,7 +302,7 @@ a {
 	background-color: #dfdfdf;
 }
 
-.pagination a:focus {
+.pagination a:active {
 	color: rgba(0, 0, 0, 0.3);
 	
 	background-color: #d5d5d5;
@@ -326,7 +329,8 @@ a {
 	list-style: none;
 }
 
-.social b {
+.social-slogan {
+	font-weight: 700;
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
@@ -343,20 +347,24 @@ a {
 	color: #000000;
 }
 
-.feedback-item input,
-.feedback-item textarea[name="message"] {
+.feedback span {
+	font-weight: 700;
+}
+
+.feedback input,
+.feedback textarea[name="message"] {
 	font: inherit;
 	color: rgba(68, 68, 68, 0.5);
 	
 	border: 2px solid #d7dcde;
 }
 
-.feedback-item input:hover,
-.feedback-item textarea[name="message"]:hover {
+.feedback input:hover,
+.feedback textarea[name="message"]:hover {
 	border-color: #b4b9bb;
 }
 
-.feedback-item input:focus,
-.feedback-item textarea[name="message"]:focus {
+.feedback input:focus,
+.feedback textarea[name="message"]:focus {
 	border-color: #000000;
 }
