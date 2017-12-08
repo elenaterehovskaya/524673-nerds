@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="UTF-8">
 		<title>Магазин Нёрдс</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
 		<link href="css/normalize.css" rel="stylesheet">
@@ -152,7 +152,7 @@
 						<img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
 						<div class="templates-image-card">
 							<a href="#">Sedona</a>
-							<p>Информационный сайт<br> для туристов</p>
+							<p>Информационный сайт для&#160;туристов</p>
 							<a class="button" href="#">9 900 руб.</a>
 						</div>
 					</article>
@@ -170,7 +170,7 @@
 						<img src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
 						<div class="templates-image-card">
 							<a href="#">Barbershop</a>
-							<p>Сайт салоны красоты.<br> Для мужчин, да.</p>
+							<p>Сайт салоны красоты. Для&#160;мужчин, да.</p>
 							<a class="button" href="#">9 900 руб.</a>
 						</div>
 					</article>
@@ -223,12 +223,13 @@
 		<footer class="main-footer">
 			<section class="contacts">
 				<h2 class="visually-hidden">Наши контакты</h2>
+				<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A2af566dab5f8d864a59e7d6ab551e094b2b76e9f6dd75b7e7e44ee2ea854e695&amp;source=constructor" width="1440" height="416"></iframe>
 				<img src="img/map.jpg" width="1440" height="416" alt="Карта офиса дизайн-студии Нёрдс">
 				<div class="contacts-info">
 					<p><b>nёrds design studio</b></p>
 					<p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 					<p>тел. +7 (812) 275-75-75</p>
-					<a class="button" href="#">Напишите нам</a>
+					<a class="button button-writeus" href="writeus.html">Напишите нам</a>
 				</div>
 			</section>
 			<section class="social">
@@ -251,7 +252,7 @@
 			</section>
 		</footer>
 
-		<section class="modal">
+		<section class="modal-writeus">
 			<h2>Напишите нам</h2>
 			<form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
 				<label class="feedback-item">
@@ -270,6 +271,8 @@
 			</form>
 			<button class="modal-close" type="button">Закрыть</button>
 		</section>
+		
+		<script src="js/popup.js"></script>
 
 	</body>
 </html>
