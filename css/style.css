@@ -770,7 +770,7 @@ input[type="radio"].visually-hidden {
   top: 0;
   left: -35px;
   
-  width: 23px;
+  width: 27px;
   height: 23px;
   
   background: url(../img/checkbox-on.svg) no-repeat 0 0;
@@ -1042,7 +1042,7 @@ input[type="radio"].visually-hidden {
 }
 
 .main-footer {
-  max-width: 1440px;
+  min-width: 1200px;
   margin: 0 auto;
 }
 
@@ -1055,7 +1055,11 @@ input[type="radio"].visually-hidden {
 }
 
 .contacts img {
+  display: block;
+  
+  width: 1440px;
   height: 416px;
+  margin: 0 auto;
 }
 
 .contacts iframe {
@@ -1179,8 +1183,13 @@ input[type="radio"].visually-hidden {
   background: url(../img/insta-icon.svg) no-repeat 0 0;
 }
 
-.social-list a:hover,
 .social-list a:focus {
+  background-color: #e74246;
+  border-radius: 50%;
+}
+
+.social-list a:hover,
+.social-list li:hover {
   background-color: #e74246;
   border-radius: 50%;
 }
@@ -1345,6 +1354,7 @@ input::-moz-placeholder {
   
   border: 2px solid #d7dcde;
   border-radius: 2px;
+  outline: 0;
 }
 
 .feedback-item textarea[name="message"] {
@@ -1358,6 +1368,7 @@ input::-moz-placeholder {
   
   border: 2px solid #d7dcde;
   border-radius: 2px;
+  outline: 0;
 }
 
 .feedback-item input:hover,
