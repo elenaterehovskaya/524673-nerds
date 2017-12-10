@@ -245,9 +245,9 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
 }
 
-#indicator-1:checked~.sliders-control .sliders-control-item-1::before,
-#indicator-2:checked~.sliders-control .sliders-control-item-2::before,
-#indicator-3:checked~.sliders-control .sliders-control-item-3::before {
+.sliders-input-radio-1:checked~.sliders-control .sliders-control-item-1::before,
+.sliders-input-radio-2:checked~.sliders-control .sliders-control-item-2::before,
+.sliders-input-radio-3:checked~.sliders-control .sliders-control-item-3::before {
   content: "";
   
   position: absolute;
@@ -264,15 +264,15 @@ input[type="radio"].visually-hidden {
   border-radius: 50%;
 }
 
-#indicator-1:checked~.sliders-list .sliders-item:nth-child(1) {
+.sliders-input-radio-1:checked~.sliders-list .sliders-item:nth-child(1) {
   display: block;
 }
 
-#indicator-2:checked~.sliders-list .sliders-item:nth-child(2) {
+.sliders-input-radio-2:checked~.sliders-list .sliders-item:nth-child(2) {
   display: block;
 }
 
-#indicator-3:checked~.sliders-list .sliders-item:nth-child(3) {
+.sliders-input-radio-3:checked~.sliders-list .sliders-item:nth-child(3) {
   display: block;
 }
 
@@ -557,18 +557,18 @@ input[type="radio"].visually-hidden {
   background-color: #eeeeee;
 }
 
-.partners-list a {
+.partners-item a {
   display: block;
   
   opacity: 0.2;
 }
 
-.partners-list a:hover,
-.partners-list a:focus {
+.partners-item a:hover,
+.partners-item a:focus {
   opacity: 1;
 }
 
-.partners-list a:active {
+.partners-item a:active {
   opacity: 0.1;
 }
 
