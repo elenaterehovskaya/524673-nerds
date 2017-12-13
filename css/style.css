@@ -557,18 +557,18 @@ input[type="radio"].visually-hidden {
   background-color: #eeeeee;
 }
 
-.partners-item a {
+.partners-list a {
   display: block;
   
   opacity: 0.2;
 }
 
-.partners-item a:hover,
-.partners-item a:focus {
+.partners-list a:hover,
+.partners-list a:focus {
   opacity: 1;
 }
 
-.partners-item a:active {
+.partners-list a:active {
   opacity: 0.1;
 }
 
@@ -988,6 +988,10 @@ input[type="radio"].visually-hidden {
   opacity: 1;
 }
 
+.templates-image:focus {
+  outline: 0;
+}
+
 .pagination {
   display: flex;
   margin: 0;
@@ -1327,37 +1331,29 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
 }
 
-input::-webkit-input-placeholder {
-  color: rgba(68, 68, 68, 0.5);
+.feedback-item input::placeholder {
+  -webkit-color: rgba(68, 68, 68, 0.5);
+     -moz-color: rgba(68, 68, 68, 0.5);
+          color: rgba(68, 68, 68, 0.5);
+        opacity: 1;
 }
 
-input::placeholder {
-  color: rgba(68, 68, 68, 0.5);
-}
-
-input::-moz-placeholder {
-  color: rgba(68, 68, 68, 0.5);
-}
-
-.feedback-item input[placeholder] {
-  font: inherit;
-  font-size: 16px;
-  line-height: 18px;
-  color: rgba(68, 68, 68, 0.5);
-}
-
-.feedback-item input {
+.feedback-username,
+.feedback-email {
   box-sizing: border-box;
   width: 360px;
   margin-bottom: 35px;
   padding: 11px 15px;
+  
+  font: inherit;
+  line-height: 18px;
   
   border: 2px solid #d7dcde;
   border-radius: 2px;
   outline: 0;
 }
 
-.feedback-item textarea[name="message"] {
+.feedback-message {
   box-sizing: border-box;
   width: 760px;
   height: 117px;
@@ -1371,16 +1367,25 @@ input::-moz-placeholder {
   outline: 0;
 }
 
-.feedback-item input:hover,
-.feedback-item textarea[name="message"]:hover {
+.feedback-username:hover,
+.feedback-email:hover,
+.feedback-message:hover {
   border-color: #b4b9bb;
 }
 
-.feedback-item input:focus,
-.feedback-item textarea[name="message"]:focus {
+.feedback-username:focus,
+.feedback-email:focus,
+.feedback-message:focus {
   color: #444444;
   
   border-color: #000000;
+}
+
+.feedback-username-error,
+.feedback-email-error {
+  border: 2px solid #e74246;
+  border-radius: 2px;
+  outline: 0;
 }
 
 .modal-writeus .button {
