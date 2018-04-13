@@ -1,40 +1,19 @@
-# Личный проект «Нёрдс»
+# Проект «Нёрдс»
 
-* Студент: [Елена Тереховская].
-* Наставник: [Роман Кудин].
-
----
-
-_Не удаляйте и не обращайте внимание на файлы:_<br>
-_`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
+* Вёрстка: [Елена Тереховская](https://github.com/elenaterehovskaya).
+* Макет: [HTML Academy](https://htmlacademy.ru).
 
 ---
 
-### Памятка
+#### Главная страница <a href="https://elenaterehovskaya.github.io/nerds" target="_blank">https://elenaterehovskaya.github.io/nerds</a>
 
-#### 1. Зарегистрируйтесь на Гитхабе
+#### страница «Магазина» <a href="https://elenaterehovskaya.github.io/nerds/catalog.html" target="_blank">https://elenaterehovskaya.github.io/nerds/catalog.html</a>
 
-Если у вас ещё нет аккаунта на [github.com](https://github.com/join), скорее зарегистрируйтесь.
 
-#### 2. Создайте форк
-
-[Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/524673-nerds) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037924-52d1116c-7bae-11e7-9578-341106737d80.jpg">
-
-Получится вот так:
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037925-53c705e0-7bae-11e7-8a3f-bad04e33575e.jpg">
-
-#### 3. Клонируйте репозиторий на свой компьютер
-
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
-
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037927-54ea5116-7bae-11e7-9595-f450cdea1e1c.jpg">
-
-Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
-
-#### 4. Начинайте обучение!
+<p align="top">
+  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-index.jpg" width="300" alt="Главная страница">
+  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-catalog.jpg" width="300" alt="Страница «Магазина»">
+</p>
 
 ---
 
