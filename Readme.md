@@ -12,14 +12,10 @@
 <table>
   <tr>
     <td style="vertical-align: top">
-      <a href="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-index-1200.jpg" target="_blank">
-        <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-index-1200.jpg" width="350" alt="Главная страница">
-      </a>
+      <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-index.jpg" width="300" alt="Главная страница">
     </td>
     <td style="vertical-align: top">
-      <a href="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-catalog-1200.jpg" target="_blank">
-        <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-catalog-1200.jpg" width="350" alt="Страница «Магазина»">
-      </a>
+      <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-catalog.jpg" width="300" alt="Страница «Магазина»">
     </td>
   </tr>
 </table>
