@@ -9,16 +9,20 @@
 
 #### страница «Магазина» <a href="https://elenaterehovskaya.github.io/nerds/catalog.html" target="_blank">https://elenaterehovskaya.github.io/nerds/catalog.html</a>
 
-####
-
-<p>
-  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-index.jpg" width="350" alt="Главная страница">
-  <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/nerds-catalog.jpg" width="350" alt="Страница «Магазина»">
-</p>
-
-img {
-  vertical-align: top;
-}
+<table>
+  <tr>
+    <td style="vertical-align: top">
+      <a href="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-index-1200.jpg" target="_blank">
+        <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-index-1200.jpg" width="350" alt="Главная страница">
+      </a>
+    </td>
+    <td style="vertical-align: top">
+      <a href="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-catalog-1200.jpg" target="_blank">
+        <img src="https://github.com/elenaterehovskaya/elenaterehovskaya.github.io/blob/master/img/gllacy-catalog-1200.jpg" width="350" alt="Страница «Магазина»">
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
